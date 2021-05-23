@@ -1,0 +1,19 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+*{
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+div{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+a{
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: bold;
+}

@@ -1,0 +1,49 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+body{
+    padding-left: 40px;
+}
+p{
+    display: block;
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-weight: bold;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 140px;
+    background-color: whitesmoke;
+    padding-left: 40px;
+    margin: 20px;
+    animation: change2 1s;
+}
+
+div:hover{
+    animation-name: change;
+    animation-duration: 1s;
+    background-color: wheat;
+}
+@keyframes change {
+    from{
+        background-color: whitesmoke;
+    }
+    to{
+        background-color: wheat;
+    }
+    
+    
+}
+
+@keyframes change2 {
+    from{
+        background-color: wheat;
+    }
+    to{
+        background-color: whitesmoke;
+    }
+    
+}

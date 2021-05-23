@@ -1,0 +1,12 @@
+.inputForm{
+    margin-top: 40px;
+    width: 400px;
+}
+body{
+    padding-left: 50px;
+}
+#duplicateField{
+    display: inline-block;
+    size: cover;
+    background-color: blanchedalmond;
+}
